@@ -9,8 +9,13 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by SheCodes</footer>
       </div>
+      <footer className="App-footer">
+        Coded by Denisse Ramirez, open sourced on{" "}
+        <a href="https://github.com/shecodesio/dictionary-project/blob/main/_snapshot/api/src/Dictionary.js">
+          Github
+        </a>
+      </footer>
     </div>
   );
 }
